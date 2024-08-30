@@ -4,7 +4,7 @@
 #' 
 #' @details
 #' Vectorized funciton. Input can either be a single character string or a vector of character. DMS coordinates should be separated by `°` or `'` to be able to be recognized. 
-#' @param dms Latitude/Longitude coordinates in DMS format.
+#' @param dms Longitude/Latitude coordinates in DMS format.
 #' @param with_letter Is the coordinates indicated with letter (N, S, W, E)? Default set to "AUTO", also accept `TRUE` or `FALSE`. 
 #' @return A `dbl` or a vector of `dbl`.
 #' @importFrom stringr str_split

@@ -7,7 +7,7 @@
 dms_to_decimal(dms, with_letter = "AUTO")
 }
 \arguments{
-\item{dms}{Latitude/Longitude coordinates in DMS format.}
+\item{dms}{Longitude/Latitude coordinates in DMS format.}
 
 \item{with_letter}{Is the coordinates indicated with letter (N, S, W, E)? Default set to "AUTO", also accept \code{TRUE} or \code{FALSE}.}
 }
