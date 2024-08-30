@@ -16,3 +16,6 @@ callAPI(id, secret, filters, cursor = NULL)
 \description{
 This function is divieded and modified from \code{\link[=getNotionDatabase]{getNotionDatabase()}} and is utilized in other functions.
 }
+\author{
+Eduardo Flores
+}
